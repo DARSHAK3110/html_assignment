@@ -223,10 +223,11 @@ input:valid+label {
 
 .label label {
     position: absolute;
-    top: 50%;
+    transform: translateY(-30%);
+    top: 100%;
     left: 15px;
     transition: all .8s ease;
-    font-size: 14px;
+    font-size: 10px;
     pointer-events: none;
 }
 input[type="file"]::-webkit-file-upload-button{
